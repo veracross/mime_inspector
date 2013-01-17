@@ -1,3 +1,5 @@
+require 'mimemagic'
+
 class MimeInspector
   # Determine the mime type of a file by looking at the contents, with a fallback to extension
   # 

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'mime_inspector'
-  s.version     = '0.5.0'
+  s.version     = '0.5.1'
   s.date        = '2013-01-16'
 
   s.summary     = "Look at the contents and extension of a file to determine the mime type"
