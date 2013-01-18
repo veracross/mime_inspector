@@ -4,16 +4,10 @@ A very simple library to get the mime type of a file by looking at the contents.
 
 ## Installation
 
-Install the latest stable release:
-
-```
-[sudo] gem install mime_inspector
-```
-
 In Rails, add it to your Gemfile:
 
 ```ruby
-gem 'mime_inspector'
+gem 'mime_inspector', :git => 'git://github.com/veracross/mime_inspector.git'
 ```
 
 ## Usage
