@@ -7,6 +7,7 @@ A very simple library to get the mime type of a file by looking at the contents.
 In Rails, add it to your Gemfile:
 
 ```ruby
+gem 'mimemagic', :git => 'git://github.com/wbond/mimemagic.git'
 gem 'mime_inspector', :git => 'git://github.com/veracross/mime_inspector.git'
 ```
 

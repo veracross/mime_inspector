@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'mime_inspector'
-  s.version     = '0.5.1'
-  s.date        = '2013-01-16'
+  s.version     = '0.5.2'
+  s.date        = '2013-07-26'
 
   s.summary     = "Look at the contents and extension of a file to determine the mime type"
   s.description = "A wrapper around mimemagic that also uses file extension to disamiguate some common formats such as application/zip"
