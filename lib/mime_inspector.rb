@@ -21,11 +21,6 @@ class MimeInspector
     # Loop for zip files since a bunch of popular formats are zips
     four_bytes = handle.read(4)
     if four_bytes == "\x50\x4b\x03\x04"
-      office_exts = ['docx', 'dotx', 'potx', 'ppsx', 'pptx', 'sldx', 'xlsx', 'xltx']
-
-      if office_exts.include?(ext)
-        get_by_ext = true
-      end
       if ext == 'pages'
         return 'application/vnd.apple.pages'
       end
@@ -35,6 +30,10 @@ class MimeInspector
       if ext == 'numbers'
         return 'application/vnd.apple.numbers'
       end
+    end
+
+    if ['docx', 'dotx', 'potx', 'ppsx', 'pptx', 'sldx', 'xlsx', 'xltx'].include?(ext)
+      get_by_ext = true
     end
 
     if not get_by_ext
