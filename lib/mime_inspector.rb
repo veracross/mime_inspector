@@ -32,7 +32,7 @@ class MimeInspector
       end
     end
 
-    if ['docx', 'dotx', 'potx', 'ppsx', 'pptx', 'sldx', 'xlsx', 'xltx'].include?(ext)
+    if ['doc', 'docx', 'dotx', 'potx', 'ppsx', 'pptx', 'sldx', 'xlsx', 'xltx'].include?(ext)
       get_by_ext = true
     end
 
